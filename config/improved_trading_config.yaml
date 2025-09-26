@@ -1,0 +1,133 @@
+# Улучшенная конфигурация торгового бота с исправленной логикой
+
+trading:
+  symbol: 'BTCUSDT'
+  initial_deposit: 10000.0
+  window_size: 24
+  maker_fee: 0.0002  # 0.02% - комиссия maker на Bybit
+  taker_fee: 0.0006  # 0.06% - комиссия taker на Bybit
+  fee: 0.0006        # Для совместимости - используем taker fee
+  min_trade_delay: 2  # Увеличено с 1
+  
+  # Улучшенные параметры стоп-лосса
+  sl_pct: 0.02  # Уменьшено с 0.03 для снижения убытков
+  trailing_stop_multiplier: 1.5  # Уменьшено с 2.5 для более быстрого выхода
+  dynamic_sl_enabled: true
+  sl_atr_multiplier: 1.5  # Уменьшено с 2.0
+  
+  # Улучшенные параметры тейк-профита
+  tp_pct: 0.07
+  trailing_tp_activate_pct: 0.05  # Уменьшено с 0.08 для более ранней активации
+  trailing_tp_trailing_pct: 0.025  # Уменьшено с 0.035 для более агрессивного трейлинга
+  trailing_tp_arm_threshold: 0.015  # Новый параметр: активация только после покрытия комиссий
+  
+  # Параметры частичного закрытия
+  partial_tp_pct: 0.12  # Увеличено с 0.08
+  partial_close_ratio: 0.3  # Уменьшено с 0.5
+  min_profit_threshold: 25.0  # Уменьшено до 25 USDT для более частой торговли
+  
+  # Параметры пирамидинга
+  pyramid_levels: [0.10, 0.30, 0.50]
+  pyramid_drawdown_thresholds: [0.05, 0.15, 0.25]
+  
+  # Параметры волатильности и фильтров (максимально ослаблены для торговли)
+  volatility_lookback: 20
+  high_volatility_threshold: 1.5
+  low_volatility_threshold: 0.5
+  min_volatility_for_trade: 0.1  # Максимально ослаблено: минимальная волатильность для торговли
+  max_volatility_for_trade: 10.0 # Максимально расширено: максимальная волатильность
+  trend_strength_min: 10.0       # Максимально ослаблено: минимальная сила тренда (ADX)
+  rsi_oversold: 15.0             # Максимально ослаблено: уровень для входа
+  rsi_overbought: 85.0           # Максимально ослаблено: уровень для входа
+  volume_spike_threshold: 0.8    # Максимально ослаблено: спайк объема для подтверждения
+  taker_fee: 0.0006              # Комиссия taker на Bybit (0.06%)
+
+model:
+  learning_rate: 0.00005  # Уменьшаем learning rate для стабильности
+  n_steps: 4096
+  batch_size: 256
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  
+  # Архитектура сети
+  net_arch: [512, 256, 128]
+  activation_fn: 'ReLU'
+  
+  # Параметры обучения
+  total_timesteps: 1000000
+  learning_episodes: 10000
+  min_data_points: 1000
+
+data:
+  dataset_path: 'btc_4h_full_fixed.csv'
+  interval: '240'  # 4H
+  limit: 200
+  
+  # Список признаков
+  feature_list:
+    - 'close'
+    - 'volume'
+    - 'rsi'
+    - 'ema_14'
+    - 'macd'
+    - 'atr'
+    - 'bb_bbm'
+    - 'adx'
+    - 'cci'
+    - 'roc'
+    - 'stoch'
+    - 'crsi'
+    - 'sideways_volume'
+    - 'dist_to_support'
+    - 'dist_to_resistance'
+    - 'dist_to_support_pct'
+    - 'dist_to_resistance_pct'
+    - 'false_breakout'
+    - 'volume_spike'
+    - 'trend_ema'
+    - 'support'
+    - 'resistance'
+    - 'ema200_d1'
+    - 'atr_mult_trailing_stop'
+  
+  # Параметры индикаторов
+  rsi_window: 14
+  ema_window: 14
+  atr_window: 14
+  adx_window: 14
+  cci_window: 20
+  roc_window: 12
+  bb_window: 20
+  support_resistance_window: 50
+
+logging:
+  level: 'INFO'
+  log_dir: 'logs'
+  log_file: 'improved_trading.log'
+  max_file_size: 10485760  # 10MB
+  backup_count: 5
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+api:
+  testnet: true
+  api_key_env: 'BYBIT_API_KEY'
+  api_secret_env: 'BYBIT_API_SECRET'
+  timeout: 30
+  retry_count: 3
+
+monitoring:
+  enabled: true
+  metrics_interval: 100  # шагов
+  save_interval: 1000    # шагов
+  alert_thresholds:
+    max_drawdown: 0.15
+    min_win_rate: 0.4
+    max_loss_streak: 10
+    min_profit_per_trade: 10.0  # Новый параметр
+    max_micro_trades_ratio: 0.3  # Новый параметр
+

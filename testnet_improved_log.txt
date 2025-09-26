@@ -1,0 +1,1909 @@
+2025-09-16 18:22:34,801 INFO Calculating technical indicators
+2025-09-16 18:22:34,846 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:22:34,866 INFO .2fУровень 1: 10% депозита
+2025-09-16 18:23:29,421 INFO Calculating technical indicators
+2025-09-16 18:23:29,460 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:23:29,466 INFO .2fУровень 1: 10% депозита
+2025-09-16 18:24:29,988 INFO Calculating technical indicators
+2025-09-16 18:24:30,032 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:25:30,293 INFO Calculating technical indicators
+2025-09-16 18:25:30,350 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:26:30,609 INFO Calculating technical indicators
+2025-09-16 18:26:30,646 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:28:29,211 INFO Calculating technical indicators
+2025-09-16 18:28:29,301 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:28:29,352 INFO .2fУровень 1: 10% депозита
+2025-09-16 18:34:47,997 INFO Calculating technical indicators
+2025-09-16 18:34:48,033 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:34:48,040 INFO .2fУровень 1: 10% депозита
+2025-09-16 18:35:48,552 INFO Calculating technical indicators
+2025-09-16 18:35:48,634 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:35:48,641 INFO .2fУровень 1: 10% депозита
+2025-09-16 18:36:49,147 INFO Calculating technical indicators
+2025-09-16 18:36:49,202 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:37:49,473 INFO Calculating technical indicators
+2025-09-16 18:37:49,528 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:40:24,994 ERROR Ошибка получения спецификаций контракта: 'minOrderQty'
+2025-09-16 18:40:25,521 INFO Calculating technical indicators
+2025-09-16 18:40:25,595 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:40:25,606 INFO .2fРазмер позиции округлен до: 0.0320 BTC
+2025-09-16 18:40:25,606 INFO .2fУровень 1: 10% депозита
+2025-09-16 18:41:26,132 INFO Calculating technical indicators
+2025-09-16 18:41:26,188 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:42:26,455 INFO Calculating technical indicators
+2025-09-16 18:42:26,500 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:43:26,774 INFO Calculating technical indicators
+2025-09-16 18:43:26,843 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:44:27,177 INFO Calculating technical indicators
+2025-09-16 18:44:27,249 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:48:15,283 INFO    Минимальный размер: 0.001
+2025-09-16 18:48:15,283 INFO    Шаг размера: 0.001
+2025-09-16 18:48:15,283 INFO    Максимальный размер: 100.0
+2025-09-16 18:48:15,792 INFO Calculating technical indicators
+2025-09-16 18:48:15,868 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:50:39,322 INFO Клиент Bybit настроен успешно
+2025-09-16 18:50:42,015 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 18:50:42,612 INFO Структура контракта: ['symbol', 'contractType', 'status', 'baseCoin', 'quoteCoin', 'launchTime', 'deliveryTime', 'deliveryFeeRate', 'priceScale', 'leverageFilter', 'priceFilter', 'lotSizeFilter', 'unifiedMarginTrade', 'fundingInterval', 'settleCoin', 'copyTrading', 'upperFundingRate', 'lowerFundingRate', 'isPreListing', 'preListingInfo', 'riskParameters', 'displayName']
+2025-09-16 18:50:42,612 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 18:50:42,613 INFO Спецификации контракта BTCUSDT:
+2025-09-16 18:50:42,613 INFO    Минимальный размер: 0.001
+2025-09-16 18:50:42,613 INFO    Шаг размера: 0.001
+2025-09-16 18:50:42,613 INFO    Максимальный размер: 100.0
+2025-09-16 18:50:43,130 INFO Calculating technical indicators
+2025-09-16 18:50:43,180 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:50:43,186 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:50:43,187 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8579]
+2025-09-16 18:50:43,189 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:50:43,193 INFO Действие модели: [2]
+2025-09-16 18:50:43,193 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 18:51:43,455 INFO Calculating technical indicators
+2025-09-16 18:51:43,490 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:51:43,492 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:51:43,493 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8579]
+2025-09-16 18:51:43,493 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9574
+2025-09-16 18:51:43,494 INFO Действие модели: [0]
+2025-09-16 18:51:43,495 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 18:52:43,759 INFO Calculating technical indicators
+2025-09-16 18:52:43,817 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:52:43,823 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:52:43,823 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8582]
+2025-09-16 18:52:43,824 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:52:43,828 INFO Действие модели: [0]
+2025-09-16 18:52:43,828 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 18:53:44,092 INFO Calculating technical indicators
+2025-09-16 18:53:44,127 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:53:44,131 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:53:44,132 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 18:53:44,133 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:53:44,135 INFO Действие модели: [0]
+2025-09-16 18:53:44,136 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 18:54:44,412 INFO Calculating technical indicators
+2025-09-16 18:54:44,476 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 18:54:44,481 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 18:54:44,482 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8579]
+2025-09-16 18:54:44,483 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9574
+2025-09-16 18:54:44,486 INFO Действие модели: [0]
+2025-09-16 18:54:44,487 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:00:50,988 INFO Клиент Bybit настроен успешно
+2025-09-16 19:00:53,419 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:00:53,979 INFO Структура контракта: ['symbol', 'contractType', 'status', 'baseCoin', 'quoteCoin', 'launchTime', 'deliveryTime', 'deliveryFeeRate', 'priceScale', 'leverageFilter', 'priceFilter', 'lotSizeFilter', 'unifiedMarginTrade', 'fundingInterval', 'settleCoin', 'copyTrading', 'upperFundingRate', 'lowerFundingRate', 'isPreListing', 'preListingInfo', 'riskParameters', 'displayName']
+2025-09-16 19:00:53,980 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:00:53,980 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:00:53,980 INFO    Минимальный размер: 0.001
+2025-09-16 19:00:53,981 INFO    Шаг размера: 0.001
+2025-09-16 19:00:53,981 INFO    Максимальный размер: 100.0
+2025-09-16 19:00:54,498 INFO Calculating technical indicators
+2025-09-16 19:00:54,545 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:00:54,548 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:00:54,549 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8579]
+2025-09-16 19:00:54,549 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:00:54,554 INFO Действие модели: [0]
+2025-09-16 19:00:54,554 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:01:54,812 INFO Calculating technical indicators
+2025-09-16 19:01:54,858 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:01:54,862 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:01:54,863 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:01:54,863 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:01:54,865 INFO Действие модели: [1]
+2025-09-16 19:01:54,866 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:01:54,866 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 19:01:54,866 INFO .2fРазмер позиции округлен до: 0.0330 BTC
+2025-09-16 19:01:54,867 INFO .2fУровень 1: 10% депозита
+2025-09-16 19:01:54,867 INFO Расчет размера позиции: 0.033000 BTC при цене 116161.90
+2025-09-16 19:01:54,867 INFO Округленный размер позиции: 0.0330 BTC
+2025-09-16 19:01:54,867 INFO Попытка покупки: qty=0.033, symbol=BTCUSDT
+2025-09-16 19:01:55,119 INFO Ответ API: {'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'f5895d45-742d-4f58-9d5e-3658359d08b2', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758042115846}
+2025-09-16 19:01:55,125 INFO ПОЗИЦИЯ ОТКРЫТА: 0.0330 BTC по цене 116161.90
+2025-09-16 19:02:55,395 INFO Calculating technical indicators
+2025-09-16 19:02:55,466 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:02:55,470 INFO Нормализованные данные: shape=(24, 24), mean=0.0000, std=0.9574
+2025-09-16 19:02:55,471 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:02:55,473 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:02:55,476 INFO Действие модели: [0]
+2025-09-16 19:02:55,477 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:03:55,738 INFO Calculating technical indicators
+2025-09-16 19:03:55,787 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:03:55,791 INFO Нормализованные данные: shape=(24, 24), mean=0.0000, std=0.9574
+2025-09-16 19:03:55,792 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:03:55,792 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:03:55,794 INFO Действие модели: [0]
+2025-09-16 19:03:55,794 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:04:56,064 INFO Calculating technical indicators
+2025-09-16 19:04:56,103 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:04:56,107 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:04:56,107 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:04:56,107 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9574
+2025-09-16 19:04:56,109 INFO Действие модели: [2]
+2025-09-16 19:04:56,109 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:10:44,926 INFO Клиент Bybit настроен успешно
+2025-09-16 19:10:46,716 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:10:47,290 INFO Структура контракта: ['symbol', 'contractType', 'status', 'baseCoin', 'quoteCoin', 'launchTime', 'deliveryTime', 'deliveryFeeRate', 'priceScale', 'leverageFilter', 'priceFilter', 'lotSizeFilter', 'unifiedMarginTrade', 'fundingInterval', 'settleCoin', 'copyTrading', 'upperFundingRate', 'lowerFundingRate', 'isPreListing', 'preListingInfo', 'riskParameters', 'displayName']
+2025-09-16 19:10:47,291 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:10:47,291 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:10:47,292 INFO    Минимальный размер: 0.001
+2025-09-16 19:10:47,292 INFO    Шаг размера: 0.001
+2025-09-16 19:10:47,292 INFO    Максимальный размер: 100.0
+2025-09-16 19:10:47,550 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 19:10:47,809 INFO Calculating technical indicators
+2025-09-16 19:10:47,855 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:10:47,857 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:10:47,857 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8581]
+2025-09-16 19:10:47,858 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:10:47,864 INFO Действие модели: [2]
+2025-09-16 19:10:47,864 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:11:48,126 INFO Calculating technical indicators
+2025-09-16 19:11:48,174 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:11:48,178 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:11:48,178 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:11:48,178 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:11:48,180 INFO Действие модели: [0]
+2025-09-16 19:11:48,180 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:12:48,441 INFO Calculating technical indicators
+2025-09-16 19:12:48,483 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:12:48,485 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:12:48,485 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:12:48,485 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:12:48,487 INFO Действие модели: [2]
+2025-09-16 19:12:48,487 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:13:48,747 INFO Calculating technical indicators
+2025-09-16 19:13:48,777 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:13:48,780 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:13:48,780 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8580]
+2025-09-16 19:13:48,780 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:13:48,783 INFO Действие модели: [1]
+2025-09-16 19:13:48,783 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:13:48,785 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 19:13:48,785 INFO .2fРазмер позиции округлен до: 0.0330 BTC
+2025-09-16 19:13:48,785 INFO .2fУровень 1: 10% депозита
+2025-09-16 19:13:48,785 INFO Расчет размера позиции: 0.033000 BTC при цене 116269.70
+2025-09-16 19:13:48,786 INFO Округленный размер позиции: 0.0330 BTC
+2025-09-16 19:13:48,786 INFO Попытка покупки: qty=0.033, symbol=BTCUSDT
+2025-09-16 19:13:49,040 INFO Ответ API: {'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': '9d6c4367-f3c1-41fa-807b-85385c411eec', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758042829776}
+2025-09-16 19:13:49,040 INFO Покупка выполнена успешно: orderId=9d6c4367-f3c1-41fa-807b-85385c411eec, qty=0.033 BTCUSDT
+2025-09-16 19:13:49,041 INFO ПОЗИЦИЯ ОТКРЫТА: 0.0330 BTC по цене 116269.70
+2025-09-16 19:14:49,296 INFO Calculating technical indicators
+2025-09-16 19:14:49,326 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:14:49,328 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:14:49,328 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8581]
+2025-09-16 19:14:49,328 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:14:49,330 INFO Действие модели: [2]
+2025-09-16 19:14:49,331 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:14:49,586 INFO Продажа выполнена: 0.033000 BTCUSDT
+2025-09-16 19:15:49,844 INFO Calculating technical indicators
+2025-09-16 19:15:49,883 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:15:49,887 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:15:49,887 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8581]
+2025-09-16 19:15:49,888 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9574
+2025-09-16 19:15:49,890 INFO Действие модели: [2]
+2025-09-16 19:15:49,890 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:16:50,150 INFO Calculating technical indicators
+2025-09-16 19:16:50,190 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:16:50,193 INFO Нормализованные данные: shape=(24, 24), mean=0.0000, std=0.9574
+2025-09-16 19:16:50,193 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8581]
+2025-09-16 19:16:50,194 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:16:50,198 INFO Действие модели: [1]
+2025-09-16 19:16:50,199 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:16:50,200 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 19:16:50,200 INFO .2fРазмер позиции округлен до: 0.0320 BTC
+2025-09-16 19:16:50,200 INFO .2fУровень 1: 10% депозита
+2025-09-16 19:16:50,200 INFO Расчет размера позиции: 0.032000 BTC при цене 116781.00
+2025-09-16 19:16:50,200 INFO Округленный размер позиции: 0.0320 BTC
+2025-09-16 19:16:50,201 INFO Попытка покупки: qty=0.032, symbol=BTCUSDT
+2025-09-16 19:16:50,453 INFO Ответ API: {'retCode': 0, 'retMsg': 'OK', 'result': {'orderId': 'fa0e5e01-41af-498f-ac34-1d2e0f491e7e', 'orderLinkId': ''}, 'retExtInfo': {}, 'time': 1758043011192}
+2025-09-16 19:16:50,453 INFO Покупка выполнена успешно: orderId=fa0e5e01-41af-498f-ac34-1d2e0f491e7e, qty=0.032 BTCUSDT
+2025-09-16 19:16:50,454 INFO ПОЗИЦИЯ ОТКРЫТА: 0.0320 BTC по цене 116781.00
+2025-09-16 19:17:50,711 INFO Calculating technical indicators
+2025-09-16 19:17:50,748 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:17:50,750 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9574
+2025-09-16 19:17:50,751 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8050, 3.8582]
+2025-09-16 19:17:50,751 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9574
+2025-09-16 19:17:50,753 INFO Действие модели: [0]
+2025-09-16 19:17:50,753 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:18:21,204 INFO Состояние торговли сохранено в trading_state.json
+2025-09-16 19:21:05,091 INFO Клиент Bybit настроен успешно
+2025-09-16 19:21:08,041 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:21:08,629 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 19:21:08,630 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:21:08,630 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:21:08,630 INFO    Минимальный размер: 0.001
+2025-09-16 19:21:08,630 INFO    Шаг размера: 0.001
+2025-09-16 19:21:08,630 INFO    Максимальный размер: 100.0
+2025-09-16 19:24:04,425 INFO Клиент Bybit настроен успешно
+2025-09-16 19:24:06,746 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:24:07,317 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 19:24:07,317 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:24:07,318 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:24:07,318 INFO    Минимальный размер: 0.001
+2025-09-16 19:24:07,318 INFO    Шаг размера: 0.001
+2025-09-16 19:24:07,319 INFO    Максимальный размер: 100.0
+2025-09-16 19:29:09,148 INFO Клиент Bybit настроен успешно
+2025-09-16 19:29:11,657 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:29:12,234 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 19:29:12,235 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:29:12,236 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:29:12,236 INFO    Минимальный размер: 0.001
+2025-09-16 19:29:12,236 INFO    Шаг размера: 0.001
+2025-09-16 19:29:12,237 INFO    Максимальный размер: 100.0
+2025-09-16 19:29:12,519 INFO Состояние торговли загружено из 2025-09-16T19:18:21.201914
+2025-09-16 19:29:12,519 WARNING Несоответствие размера позиции: сохранено 0.032000, реально 0.031968
+2025-09-16 19:29:12,832 INFO Calculating technical indicators
+2025-09-16 19:29:12,957 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:29:12,964 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:29:12,964 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:29:12,967 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:29:13,017 INFO Действие модели: [0]
+2025-09-16 19:29:13,018 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:30:13,283 INFO Calculating technical indicators
+2025-09-16 19:30:13,337 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:30:13,340 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:30:13,341 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:30:13,342 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:30:13,345 INFO Действие модели: [2]
+2025-09-16 19:30:13,345 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:31:13,885 INFO Calculating technical indicators
+2025-09-16 19:31:13,926 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:31:13,930 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:31:13,931 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:31:13,932 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:31:13,933 INFO Действие модели: [0]
+2025-09-16 19:31:13,934 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:32:14,197 INFO Calculating technical indicators
+2025-09-16 19:32:14,251 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:32:14,253 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:32:14,254 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:32:14,255 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:32:14,260 INFO Действие модели: [1]
+2025-09-16 19:32:14,261 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:32:14,262 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:33:14,525 INFO Calculating technical indicators
+2025-09-16 19:33:14,566 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:33:14,568 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:33:14,568 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:33:14,568 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:33:14,569 INFO Действие модели: [1]
+2025-09-16 19:33:14,570 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:33:14,572 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:34:14,832 INFO Calculating technical indicators
+2025-09-16 19:34:14,939 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:34:14,944 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:34:14,945 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:34:14,946 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:34:14,948 INFO Действие модели: [1]
+2025-09-16 19:34:14,948 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:34:14,949 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:34:44,634 INFO Состояние торговли сохранено в trading_state.json
+2025-09-16 19:37:33,947 INFO Клиент Bybit настроен успешно
+2025-09-16 19:37:35,974 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:37:36,559 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 19:37:36,559 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:37:36,560 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:37:36,564 INFO    Минимальный размер: 0.001
+2025-09-16 19:37:36,565 INFO    Шаг размера: 0.001
+2025-09-16 19:37:36,568 INFO    Максимальный размер: 100.0
+2025-09-16 19:37:36,844 INFO Состояние торговли загружено из 2025-09-16T19:34:44.633091
+2025-09-16 19:37:37,103 INFO Calculating technical indicators
+2025-09-16 19:37:37,143 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:37:37,146 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:37:37,146 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:37:37,147 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:37:37,153 INFO Действие модели: [1]
+2025-09-16 19:37:37,154 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:37:37,154 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:38:37,406 INFO Calculating technical indicators
+2025-09-16 19:38:37,441 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:38:37,445 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:38:37,445 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:38:37,445 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:38:37,447 INFO Действие модели: [1]
+2025-09-16 19:38:37,447 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:38:37,447 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:39:37,698 INFO Calculating technical indicators
+2025-09-16 19:39:37,751 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:39:37,755 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:39:37,755 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:39:37,755 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:39:37,758 INFO Действие модели: [0]
+2025-09-16 19:39:37,759 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:40:38,011 INFO Calculating technical indicators
+2025-09-16 19:40:38,045 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:40:38,050 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:40:38,050 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:40:38,051 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:40:38,052 INFO Действие модели: [2]
+2025-09-16 19:40:38,052 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:40:38,053 INFO Продажа отменена: чистая прибыль -0.0640% < 0.5%
+2025-09-16 19:41:38,303 INFO Calculating technical indicators
+2025-09-16 19:41:38,337 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:41:38,339 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:41:38,340 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:41:38,340 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:41:38,341 INFO Действие модели: [0]
+2025-09-16 19:41:38,341 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:42:38,595 INFO Calculating technical indicators
+2025-09-16 19:42:38,635 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:42:38,638 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:42:38,639 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:42:38,640 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:42:38,642 INFO Действие модели: [0]
+2025-09-16 19:42:38,643 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:43:38,895 INFO Calculating technical indicators
+2025-09-16 19:43:38,939 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:43:38,942 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:43:38,942 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:43:38,943 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:43:38,945 INFO Действие модели: [1]
+2025-09-16 19:43:38,946 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:43:38,946 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:44:39,197 INFO Calculating technical indicators
+2025-09-16 19:44:39,237 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:44:39,239 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:44:39,240 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:44:39,241 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:44:39,242 INFO Действие модели: [2]
+2025-09-16 19:44:39,243 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:44:39,244 INFO Продажа отменена: чистая прибыль -0.0640% < 0.5%
+2025-09-16 19:45:39,496 INFO Calculating technical indicators
+2025-09-16 19:45:39,531 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:45:39,536 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:45:39,536 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:45:39,536 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:45:39,538 INFO Действие модели: [1]
+2025-09-16 19:45:39,538 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:45:39,538 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:46:39,792 INFO Calculating technical indicators
+2025-09-16 19:46:39,831 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:46:39,834 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:46:39,834 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:46:39,835 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:46:39,837 INFO Действие модели: [0]
+2025-09-16 19:46:39,837 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:47:40,094 INFO Calculating technical indicators
+2025-09-16 19:47:40,130 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:47:40,132 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:47:40,132 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:47:40,133 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:47:40,136 INFO Действие модели: [0]
+2025-09-16 19:47:40,136 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:48:40,389 INFO Calculating technical indicators
+2025-09-16 19:48:40,431 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:48:40,433 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:48:40,433 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:48:40,434 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:48:40,436 INFO Действие модели: [0]
+2025-09-16 19:48:40,436 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:49:40,691 INFO Calculating technical indicators
+2025-09-16 19:49:40,732 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:49:40,734 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:49:40,734 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:49:40,734 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:49:40,735 INFO Действие модели: [2]
+2025-09-16 19:49:40,736 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:49:40,736 INFO Продажа отменена: чистая прибыль -0.0640% < 0.5%
+2025-09-16 19:50:41,011 INFO Calculating technical indicators
+2025-09-16 19:50:41,066 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:50:41,070 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:50:41,070 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:50:41,071 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:50:41,075 INFO Действие модели: [0]
+2025-09-16 19:50:41,076 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:51:41,331 INFO Calculating technical indicators
+2025-09-16 19:51:41,376 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:51:41,378 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:51:41,379 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:51:41,379 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:51:41,381 INFO Действие модели: [1]
+2025-09-16 19:51:41,382 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:51:41,383 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:52:41,636 INFO Calculating technical indicators
+2025-09-16 19:52:41,692 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:52:41,695 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:52:41,695 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:52:41,696 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:52:41,697 INFO Действие модели: [2]
+2025-09-16 19:52:41,698 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:52:41,700 INFO Продажа отменена: чистая прибыль -0.0640% < 0.5%
+2025-09-16 19:53:41,954 INFO Calculating technical indicators
+2025-09-16 19:53:41,986 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:53:41,989 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:53:41,989 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:53:41,990 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:53:41,992 INFO Действие модели: [2]
+2025-09-16 19:53:41,992 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:53:41,994 INFO Продажа отменена: чистая прибыль -0.0640% < 0.5%
+2025-09-16 19:54:42,275 INFO Calculating technical indicators
+2025-09-16 19:54:42,311 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:54:42,313 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:54:42,313 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:54:42,314 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:54:42,315 INFO Действие модели: [0]
+2025-09-16 19:54:42,315 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 19:55:42,571 INFO Calculating technical indicators
+2025-09-16 19:55:42,607 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:55:42,610 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:55:42,610 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:55:42,611 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:55:42,612 INFO Действие модели: [1]
+2025-09-16 19:55:42,612 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:55:42,613 INFO Сигнал покупки получен, но позиция уже активна
+2025-09-16 19:56:45,154 INFO Клиент Bybit настроен успешно
+2025-09-16 19:56:47,362 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 19:56:47,915 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 19:56:47,915 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 19:56:47,916 INFO Спецификации контракта BTCUSDT:
+2025-09-16 19:56:47,916 INFO    Минимальный размер: 0.001
+2025-09-16 19:56:47,916 INFO    Шаг размера: 0.001
+2025-09-16 19:56:47,917 INFO    Максимальный размер: 100.0
+2025-09-16 19:56:48,169 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 19:56:48,427 INFO Calculating technical indicators
+2025-09-16 19:56:48,478 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:56:48,481 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:56:48,481 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:56:48,481 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:56:48,488 INFO Действие модели: [2]
+2025-09-16 19:56:48,489 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 19:57:48,747 INFO Calculating technical indicators
+2025-09-16 19:57:48,790 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:57:48,792 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:57:48,793 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:57:48,793 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:57:48,795 INFO Действие модели: [1]
+2025-09-16 19:57:48,795 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:57:48,795 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 19:57:48,796 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 19:57:48,796 INFO .2fУровень 1: 10% депозита
+2025-09-16 19:57:48,796 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 19:57:48,796 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 19:57:48,797 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 19:57:49,066 ERROR Ошибка выполнения покупки
+2025-09-16 19:58:49,323 INFO Calculating technical indicators
+2025-09-16 19:58:49,354 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:58:49,356 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:58:49,356 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:58:49,357 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:58:49,359 INFO Действие модели: [1]
+2025-09-16 19:58:49,359 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 19:58:49,360 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 19:58:49,360 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 19:58:49,361 INFO .2fУровень 1: 10% депозита
+2025-09-16 19:58:49,361 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 19:58:49,361 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 19:58:49,362 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 19:58:49,616 ERROR Ошибка выполнения покупки
+2025-09-16 19:59:49,874 INFO Calculating technical indicators
+2025-09-16 19:59:49,907 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 19:59:49,910 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 19:59:49,911 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 19:59:49,911 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 19:59:49,913 INFO Действие модели: [2]
+2025-09-16 19:59:49,914 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:00:50,169 INFO Calculating technical indicators
+2025-09-16 20:00:50,197 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:00:50,199 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:00:50,199 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:00:50,200 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:00:50,202 INFO Действие модели: [2]
+2025-09-16 20:00:50,202 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:01:50,462 INFO Calculating technical indicators
+2025-09-16 20:01:50,495 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:01:50,498 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:01:50,498 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:01:50,499 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:01:50,501 INFO Действие модели: [1]
+2025-09-16 20:01:50,501 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:01:50,502 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:01:50,502 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 20:01:50,503 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:01:50,503 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:01:50,503 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:01:50,504 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:01:50,758 ERROR Ошибка выполнения покупки
+2025-09-16 20:02:51,012 INFO Calculating technical indicators
+2025-09-16 20:02:51,045 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:02:51,047 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:02:51,048 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:02:51,048 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:02:51,050 INFO Действие модели: [1]
+2025-09-16 20:02:51,050 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:02:51,051 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:02:51,051 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 20:02:51,051 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:02:51,051 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:02:51,051 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:02:51,052 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:02:51,310 ERROR Ошибка выполнения покупки
+2025-09-16 20:03:51,564 INFO Calculating technical indicators
+2025-09-16 20:03:51,598 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:03:51,601 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:03:51,602 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:03:51,602 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:03:51,605 INFO Действие модели: [1]
+2025-09-16 20:03:51,605 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:03:51,606 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:03:51,606 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 20:03:51,606 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:03:51,607 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:03:51,607 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:03:51,607 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:03:51,863 ERROR Ошибка выполнения покупки
+2025-09-16 20:04:52,117 INFO Calculating technical indicators
+2025-09-16 20:04:52,151 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:04:52,153 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:04:52,154 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:04:52,154 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:04:52,156 INFO Действие модели: [2]
+2025-09-16 20:04:52,157 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:05:52,410 INFO Calculating technical indicators
+2025-09-16 20:05:52,443 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:05:52,446 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:05:52,446 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:05:52,447 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:05:52,449 INFO Действие модели: [1]
+2025-09-16 20:05:52,449 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:05:52,450 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:05:52,450 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 20:05:52,451 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:05:52,451 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:05:52,451 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:05:52,452 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:05:52,706 ERROR Ошибка выполнения покупки
+2025-09-16 20:06:52,959 INFO Calculating technical indicators
+2025-09-16 20:06:52,993 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:06:52,996 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:06:52,997 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:06:52,997 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:06:52,999 INFO Действие модели: [0]
+2025-09-16 20:06:52,999 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:07:53,254 INFO Calculating technical indicators
+2025-09-16 20:07:53,287 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:07:53,291 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:07:53,292 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:07:53,292 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:07:53,294 INFO Действие модели: [2]
+2025-09-16 20:07:53,295 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:08:53,555 INFO Calculating technical indicators
+2025-09-16 20:08:53,587 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:08:53,591 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:08:53,591 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:08:53,592 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:08:53,594 INFO Действие модели: [2]
+2025-09-16 20:08:53,594 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:09:53,851 INFO Calculating technical indicators
+2025-09-16 20:09:53,888 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:09:53,890 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:09:53,891 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:09:53,891 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:09:53,893 INFO Действие модели: [2]
+2025-09-16 20:09:53,894 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:10:54,153 INFO Calculating technical indicators
+2025-09-16 20:10:54,189 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:10:54,191 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:10:54,192 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:10:54,192 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:10:54,194 INFO Действие модели: [2]
+2025-09-16 20:10:54,194 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:11:54,447 INFO Calculating technical indicators
+2025-09-16 20:11:54,481 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:11:54,483 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:11:54,483 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:11:54,484 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:11:54,485 INFO Действие модели: [1]
+2025-09-16 20:11:54,485 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:11:54,486 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:11:54,487 INFO .2fРазмер позиции округлен до: 0.0090 BTC
+2025-09-16 20:11:54,487 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:11:54,487 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:11:54,487 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:11:54,488 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:11:54,742 ERROR Ошибка выполнения покупки
+2025-09-16 20:12:54,997 INFO Calculating technical indicators
+2025-09-16 20:12:55,049 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:12:55,052 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:12:55,052 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:12:55,052 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:12:55,054 INFO Действие модели: [2]
+2025-09-16 20:12:55,055 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:14:15,482 INFO Клиент Bybit настроен успешно
+2025-09-16 20:14:17,398 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:14:18,313 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:14:18,314 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:14:18,314 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:14:18,314 INFO    Минимальный размер: 0.001
+2025-09-16 20:14:18,314 INFO    Шаг размера: 0.001
+2025-09-16 20:14:18,315 INFO    Максимальный размер: 100.0
+2025-09-16 20:14:18,926 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:14:19,537 INFO Calculating technical indicators
+2025-09-16 20:14:19,586 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:14:19,589 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:14:19,590 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:14:19,592 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:14:19,600 INFO Действие модели: [0]
+2025-09-16 20:14:19,601 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:15:20,248 INFO Calculating technical indicators
+2025-09-16 20:15:20,301 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:15:20,304 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:15:20,304 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:15:20,305 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:15:20,307 INFO Действие модели: [0]
+2025-09-16 20:15:20,307 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:16:20,910 INFO Calculating technical indicators
+2025-09-16 20:16:20,941 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:16:20,944 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:16:20,944 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:16:20,944 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:16:20,946 INFO Действие модели: [2]
+2025-09-16 20:16:20,947 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:17:21,549 INFO Calculating technical indicators
+2025-09-16 20:17:21,582 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:17:21,584 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:17:21,584 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:17:21,584 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:17:21,586 INFO Действие модели: [0]
+2025-09-16 20:17:21,586 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:18:22,180 INFO Calculating technical indicators
+2025-09-16 20:18:22,218 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:18:22,220 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:18:22,221 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:18:22,221 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:18:22,223 INFO Действие модели: [1]
+2025-09-16 20:18:22,223 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:18:22,224 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:18:22,224 INFO .2fРазмер позиции округлен до: 0.0090 BTC (мин. стоимость: 10.0 USDT)
+2025-09-16 20:18:22,224 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:18:22,224 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:18:22,224 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:18:22,225 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:18:22,823 ERROR Ошибка выполнения покупки
+2025-09-16 20:19:23,417 INFO Calculating technical indicators
+2025-09-16 20:19:23,455 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:19:23,457 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:19:23,457 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:19:23,458 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:19:23,459 INFO Действие модели: [0]
+2025-09-16 20:19:23,460 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:20:24,060 INFO Calculating technical indicators
+2025-09-16 20:20:24,104 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:20:24,108 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:20:24,108 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:20:24,108 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:20:24,110 INFO Действие модели: [0]
+2025-09-16 20:20:24,110 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:21:41,295 INFO Клиент Bybit настроен успешно
+2025-09-16 20:21:43,252 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:21:43,813 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:21:43,813 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:21:43,814 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:21:43,815 INFO    Минимальный размер: 0.001
+2025-09-16 20:21:43,815 INFO    Шаг размера: 0.001
+2025-09-16 20:21:43,816 INFO    Максимальный размер: 100.0
+2025-09-16 20:21:44,065 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:21:44,327 INFO Calculating technical indicators
+2025-09-16 20:21:44,376 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:21:44,379 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:21:44,379 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:21:44,380 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:21:44,384 INFO Действие модели: [1]
+2025-09-16 20:21:44,384 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:21:44,385 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:21:44,385 INFO .2fРазмер позиции округлен до: 0.0090 BTC (мин. стоимость: 20.0 USDT)
+2025-09-16 20:21:44,385 INFO .2fУровень 1: 10% депозита
+2025-09-16 20:21:44,385 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:21:44,386 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:21:44,387 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:21:44,646 ERROR Ошибка выполнения покупки
+2025-09-16 20:27:29,967 INFO Клиент Bybit настроен успешно
+2025-09-16 20:27:32,085 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:27:32,680 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:27:32,680 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:27:32,681 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:27:32,681 INFO    Минимальный размер: 0.001
+2025-09-16 20:27:32,682 INFO    Шаг размера: 0.001
+2025-09-16 20:27:32,682 INFO    Максимальный размер: 100.0
+2025-09-16 20:27:32,939 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:27:33,204 INFO Calculating technical indicators
+2025-09-16 20:27:33,247 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:27:33,249 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:27:33,249 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:27:33,250 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:27:33,254 INFO Действие модели: [2]
+2025-09-16 20:27:33,255 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:28:33,516 INFO Calculating technical indicators
+2025-09-16 20:28:33,555 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:28:33,560 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:28:33,561 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:28:33,562 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:28:33,564 INFO Действие модели: [0]
+2025-09-16 20:28:33,564 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:29:33,828 INFO Calculating technical indicators
+2025-09-16 20:29:33,861 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:29:33,863 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:29:33,863 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:29:33,863 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:29:33,865 INFO Действие модели: [0]
+2025-09-16 20:29:33,865 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:30:34,131 INFO Calculating technical indicators
+2025-09-16 20:30:34,163 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:30:34,165 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:30:34,166 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:30:34,166 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:30:34,168 INFO Действие модели: [2]
+2025-09-16 20:30:34,168 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:31:34,432 INFO Calculating technical indicators
+2025-09-16 20:31:34,464 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:31:34,467 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:31:34,467 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:31:34,467 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:31:34,470 INFO Действие модели: [2]
+2025-09-16 20:31:34,470 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:32:34,740 INFO Calculating technical indicators
+2025-09-16 20:32:34,770 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:32:34,772 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:32:34,773 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:32:34,773 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:32:34,774 INFO Действие модели: [1]
+2025-09-16 20:32:34,775 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:32:34,776 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:32:34,778 ERROR Ошибка расчета размера позиции: name 'min_order_value' is not defined
+2025-09-16 20:32:34,779 INFO Расчет размера позиции: 0.000000 BTC при цене 109541.44
+2025-09-16 20:32:34,779 INFO Недостаточно средств для открытия позиции
+2025-09-16 20:33:35,046 INFO Calculating technical indicators
+2025-09-16 20:33:35,084 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:33:35,086 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:33:35,086 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:33:35,086 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:33:35,088 INFO Действие модели: [2]
+2025-09-16 20:33:35,088 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:35:44,912 INFO Клиент Bybit настроен успешно
+2025-09-16 20:35:47,107 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:35:48,058 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:35:48,058 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:35:48,059 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:35:48,059 INFO    Минимальный размер: 0.001
+2025-09-16 20:35:48,059 INFO    Шаг размера: 0.001
+2025-09-16 20:35:48,059 INFO    Максимальный размер: 100.0
+2025-09-16 20:35:48,648 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:35:48,916 INFO Calculating technical indicators
+2025-09-16 20:35:48,973 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:35:48,976 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:35:48,977 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:35:48,978 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:35:48,986 INFO Действие модели: [1]
+2025-09-16 20:35:48,987 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:35:48,988 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:35:48,988 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:35:48,989 INFO Уровень 1: 10% депозита
+2025-09-16 20:35:48,989 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:35:48,990 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:35:48,991 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:35:49,599 ERROR Ошибка выполнения покупки
+2025-09-16 20:36:53,794 INFO Клиент Bybit настроен успешно
+2025-09-16 20:36:55,505 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:36:56,112 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:36:56,113 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:36:56,113 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:36:56,113 INFO    Минимальный размер: 0.001
+2025-09-16 20:36:56,114 INFO    Шаг размера: 0.001
+2025-09-16 20:36:56,114 INFO    Максимальный размер: 100.0
+2025-09-16 20:36:56,363 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:36:56,622 INFO Calculating technical indicators
+2025-09-16 20:36:56,665 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:36:56,668 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:36:56,669 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:36:56,669 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:36:56,674 INFO Действие модели: [0]
+2025-09-16 20:36:56,674 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:37:56,928 INFO Calculating technical indicators
+2025-09-16 20:37:56,962 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:37:56,965 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:37:56,965 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:37:56,965 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:37:56,967 INFO Действие модели: [0]
+2025-09-16 20:37:56,967 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:38:57,565 INFO Calculating technical indicators
+2025-09-16 20:38:57,594 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:38:57,597 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:38:57,597 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:38:57,597 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:38:57,599 INFO Действие модели: [1]
+2025-09-16 20:38:57,600 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:38:57,601 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:38:57,601 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:38:57,601 INFO Уровень 1: 10% депозита
+2025-09-16 20:38:57,601 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:38:57,602 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:38:57,602 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:38:57,997 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:38:57).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 20:38:57,998 ERROR Ошибка выполнения покупки
+2025-09-16 20:40:05,854 INFO Клиент Bybit настроен успешно
+2025-09-16 20:40:08,423 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:40:09,016 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:40:09,016 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:40:09,017 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:40:09,017 INFO    Минимальный размер: 0.001
+2025-09-16 20:40:09,017 INFO    Шаг размера: 0.001
+2025-09-16 20:40:09,017 INFO    Максимальный размер: 100.0
+2025-09-16 20:40:09,275 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:40:09,533 INFO Calculating technical indicators
+2025-09-16 20:40:09,568 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:40:09,570 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:40:09,571 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:40:09,571 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:40:09,575 INFO Действие модели: [1]
+2025-09-16 20:40:09,576 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:40:09,577 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:40:09,577 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:40:09,578 INFO Уровень 1: 10% депозита
+2025-09-16 20:40:09,578 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:40:09,578 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:40:09,579 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:40:09,844 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:40:09).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 20:40:09,844 ERROR Ошибка выполнения покупки
+2025-09-16 20:40:50,036 INFO Клиент Bybit настроен успешно
+2025-09-16 20:40:52,589 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:40:53,133 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:40:53,134 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:40:53,134 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:40:53,134 INFO    Минимальный размер: 0.001
+2025-09-16 20:40:53,134 INFO    Шаг размера: 0.001
+2025-09-16 20:40:53,134 INFO    Максимальный размер: 100.0
+2025-09-16 20:40:53,384 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:40:53,636 INFO Calculating technical indicators
+2025-09-16 20:40:53,670 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:40:53,672 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:40:53,672 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:40:53,673 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:40:53,677 INFO Действие модели: [1]
+2025-09-16 20:40:53,677 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:40:53,678 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:40:53,678 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:40:53,678 INFO Уровень 1: 10% депозита
+2025-09-16 20:40:53,678 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:40:53,678 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:40:53,679 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:40:53,974 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:40:53).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 20:40:53,974 ERROR Ошибка выполнения покупки
+2025-09-16 20:41:54,232 INFO Calculating technical indicators
+2025-09-16 20:41:54,276 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:41:54,280 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:41:54,280 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:41:54,281 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:41:54,284 INFO Действие модели: [0]
+2025-09-16 20:41:54,285 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:42:54,540 INFO Calculating technical indicators
+2025-09-16 20:42:54,572 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:42:54,574 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:42:54,574 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:42:54,575 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:42:54,577 INFO Действие модели: [1]
+2025-09-16 20:42:54,577 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:42:54,578 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:42:54,579 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:42:54,579 INFO Уровень 1: 10% депозита
+2025-09-16 20:42:54,580 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:42:54,580 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:42:54,581 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:42:54,855 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:42:54).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 20:42:54,855 ERROR Ошибка выполнения покупки
+2025-09-16 20:43:55,136 INFO Calculating technical indicators
+2025-09-16 20:43:55,181 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:43:55,183 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:43:55,184 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:43:55,184 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:43:55,186 INFO Действие модели: [0]
+2025-09-16 20:43:55,186 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:44:12,248 INFO Клиент Bybit настроен успешно
+2025-09-16 20:44:14,927 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:44:15,559 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:44:15,559 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:44:15,559 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:44:15,560 INFO    Минимальный размер: 0.001
+2025-09-16 20:44:15,560 INFO    Шаг размера: 0.001
+2025-09-16 20:44:15,560 INFO    Максимальный размер: 100.0
+2025-09-16 20:44:15,873 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:44:16,153 INFO Calculating technical indicators
+2025-09-16 20:44:16,186 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:44:16,188 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:44:16,189 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:44:16,189 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:44:16,194 INFO Действие модели: [0]
+2025-09-16 20:44:16,194 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:45:16,458 INFO Calculating technical indicators
+2025-09-16 20:45:16,491 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:45:16,493 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:45:16,494 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:45:16,494 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:45:16,496 INFO Действие модели: [0]
+2025-09-16 20:45:16,496 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:46:16,826 INFO Calculating technical indicators
+2025-09-16 20:46:16,857 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:46:16,859 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:46:16,859 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:46:16,860 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:46:16,862 INFO Действие модели: [1]
+2025-09-16 20:46:16,862 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:46:16,862 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:46:16,863 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 20:46:16,863 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 20:46:16,863 INFO Первая позиция: max(1010.84, 100.00) = 1010.84 USDT
+2025-09-16 20:46:16,863 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:46:16,863 INFO Уровень 1: 10% депозита
+2025-09-16 20:46:16,864 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:46:16,864 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:46:16,864 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:46:17,126 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:46:17).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 20:46:17,127 ERROR Ошибка выполнения покупки
+2025-09-16 20:47:17,449 INFO Calculating technical indicators
+2025-09-16 20:47:17,481 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:47:17,483 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:47:17,483 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:47:17,484 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:47:17,485 INFO Действие модели: [0]
+2025-09-16 20:47:17,486 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:47:31,459 INFO Клиент Bybit настроен успешно
+2025-09-16 20:47:33,819 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 20:47:34,436 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 20:47:34,436 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 20:47:34,436 INFO Спецификации контракта BTCUSDT:
+2025-09-16 20:47:34,437 INFO    Минимальный размер: 0.001
+2025-09-16 20:47:34,437 INFO    Шаг размера: 0.001
+2025-09-16 20:47:34,437 INFO    Максимальный размер: 100.0
+2025-09-16 20:47:34,695 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 20:47:34,959 INFO Calculating technical indicators
+2025-09-16 20:47:34,993 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:47:34,995 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:47:34,996 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:47:34,996 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:47:35,001 INFO Действие модели: [0]
+2025-09-16 20:47:35,001 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:48:35,266 INFO Calculating technical indicators
+2025-09-16 20:48:35,300 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:48:35,302 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:48:35,302 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:48:35,303 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:48:35,306 INFO Действие модели: [0]
+2025-09-16 20:48:35,306 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:49:35,787 INFO Calculating technical indicators
+2025-09-16 20:49:35,820 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:49:35,822 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:49:35,822 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:49:35,822 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:49:35,824 INFO Действие модели: [0]
+2025-09-16 20:49:35,824 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:50:36,090 INFO Calculating technical indicators
+2025-09-16 20:50:36,120 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:50:36,122 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:50:36,122 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:50:36,122 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:50:36,124 INFO Действие модели: [2]
+2025-09-16 20:50:36,125 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:51:36,391 INFO Calculating technical indicators
+2025-09-16 20:51:36,422 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:51:36,424 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:51:36,425 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:51:36,425 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:51:36,427 INFO Действие модели: [0]
+2025-09-16 20:51:36,428 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:52:36,706 INFO Calculating technical indicators
+2025-09-16 20:52:36,738 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:52:36,740 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:52:36,741 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:52:36,741 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:52:36,743 INFO Действие модели: [2]
+2025-09-16 20:52:36,744 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:53:37,005 INFO Calculating technical indicators
+2025-09-16 20:53:37,049 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:53:37,052 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:53:37,052 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:53:37,052 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:53:37,054 INFO Действие модели: [0]
+2025-09-16 20:53:37,055 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:54:37,652 INFO Calculating technical indicators
+2025-09-16 20:54:37,683 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:54:37,687 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:54:37,687 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:54:37,688 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:54:37,690 INFO Действие модели: [0]
+2025-09-16 20:54:37,691 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:55:37,963 INFO Calculating technical indicators
+2025-09-16 20:55:37,995 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:55:37,998 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:55:37,999 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:55:37,999 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:55:38,001 INFO Действие модели: [2]
+2025-09-16 20:55:38,001 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:56:38,260 INFO Calculating technical indicators
+2025-09-16 20:56:38,301 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:56:38,303 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:56:38,304 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:56:38,304 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:56:38,306 INFO Действие модели: [0]
+2025-09-16 20:56:38,307 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:57:38,576 INFO Calculating technical indicators
+2025-09-16 20:57:38,610 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:57:38,613 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:57:38,614 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:57:38,614 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:57:38,617 INFO Действие модели: [2]
+2025-09-16 20:57:38,618 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 20:58:38,898 INFO Calculating technical indicators
+2025-09-16 20:58:38,938 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:58:38,941 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:58:38,941 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:58:38,941 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:58:38,943 INFO Действие модели: [0]
+2025-09-16 20:58:38,944 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 20:59:39,210 INFO Calculating technical indicators
+2025-09-16 20:59:39,243 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 20:59:39,246 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 20:59:39,246 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 20:59:39,247 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 20:59:39,250 INFO Действие модели: [1]
+2025-09-16 20:59:39,251 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 20:59:39,252 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 20:59:39,253 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 20:59:39,253 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 20:59:39,253 INFO Первая позиция: max(1010.84, 200.00) = 1010.84 USDT
+2025-09-16 20:59:39,253 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 20:59:39,254 INFO Уровень 1: 10% депозита
+2025-09-16 20:59:39,254 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 20:59:39,254 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 20:59:39,255 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 20:59:39,518 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 18:59:39).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 20:59:39,519 ERROR Ошибка выполнения покупки
+2025-09-16 21:00:39,782 INFO Calculating technical indicators
+2025-09-16 21:00:39,821 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:00:39,824 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:00:39,825 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:00:39,826 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:00:39,829 INFO Действие модели: [2]
+2025-09-16 21:00:39,829 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:01:40,091 INFO Calculating technical indicators
+2025-09-16 21:01:40,126 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:01:40,130 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:01:40,130 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:01:40,130 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:01:40,133 INFO Действие модели: [0]
+2025-09-16 21:01:40,133 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:02:40,445 INFO Calculating technical indicators
+2025-09-16 21:02:40,483 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:02:40,487 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:02:40,487 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:02:40,488 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:02:40,490 INFO Действие модели: [2]
+2025-09-16 21:02:40,491 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:03:40,753 INFO Calculating technical indicators
+2025-09-16 21:03:40,787 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:03:40,790 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:03:40,791 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:03:40,792 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:03:40,795 INFO Действие модели: [2]
+2025-09-16 21:03:40,795 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:04:41,060 INFO Calculating technical indicators
+2025-09-16 21:04:41,093 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:04:41,095 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:04:41,095 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:04:41,095 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:04:41,097 INFO Действие модели: [1]
+2025-09-16 21:04:41,097 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:04:41,097 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:04:41,098 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:04:41,098 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:04:41,098 INFO Первая позиция: max(1010.84, 200.00) = 1010.84 USDT
+2025-09-16 21:04:41,098 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 985.87 USDT)
+2025-09-16 21:04:41,098 INFO Уровень 1: 10% депозита
+2025-09-16 21:04:41,099 INFO Расчет размера позиции: 0.009000 BTC при цене 109541.44
+2025-09-16 21:04:41,099 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-16 21:04:41,099 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-16 21:04:41,361 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:04:41).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:04:41,362 ERROR Ошибка выполнения покупки
+2025-09-16 21:05:02,968 INFO Клиент Bybit настроен успешно
+2025-09-16 21:05:04,779 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 21:05:05,520 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 21:05:05,521 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 21:05:05,521 INFO Спецификации контракта BTCUSDT:
+2025-09-16 21:05:05,521 INFO    Минимальный размер: 0.001
+2025-09-16 21:05:05,521 INFO    Шаг размера: 0.001
+2025-09-16 21:05:05,521 INFO    Максимальный размер: 100.0
+2025-09-16 21:05:05,816 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 21:05:06,106 INFO Calculating technical indicators
+2025-09-16 21:05:06,148 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:05:06,150 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:05:06,150 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:05:06,151 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:05:06,155 INFO Действие модели: [0]
+2025-09-16 21:05:06,155 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:06:06,407 INFO Calculating technical indicators
+2025-09-16 21:06:06,438 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:06:06,440 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:06:06,441 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:06:06,441 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:06:06,443 INFO Действие модели: [0]
+2025-09-16 21:06:06,443 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:07:06,697 INFO Calculating technical indicators
+2025-09-16 21:07:06,729 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:07:06,731 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:07:06,732 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:07:06,732 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:07:06,734 INFO Действие модели: [2]
+2025-09-16 21:07:06,734 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:08:07,000 INFO Calculating technical indicators
+2025-09-16 21:08:07,030 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:08:07,032 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:08:07,033 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:08:07,033 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:08:07,035 INFO Действие модели: [0]
+2025-09-16 21:08:07,035 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:09:07,287 INFO Calculating technical indicators
+2025-09-16 21:09:07,317 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:09:07,320 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:09:07,320 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:09:07,321 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:09:07,323 INFO Действие модели: [2]
+2025-09-16 21:09:07,323 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:10:07,590 INFO Calculating technical indicators
+2025-09-16 21:10:07,622 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:10:07,624 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:10:07,625 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:10:07,625 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:10:07,627 INFO Действие модели: [2]
+2025-09-16 21:10:07,628 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:11:07,881 INFO Calculating technical indicators
+2025-09-16 21:11:07,913 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:11:07,917 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:11:07,918 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:11:07,918 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:11:07,921 INFO Действие модели: [1]
+2025-09-16 21:11:07,921 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:11:07,922 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:11:07,923 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:11:07,923 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:11:07,923 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:11:07,924 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:11:07,924 INFO Уровень 1: 10% депозита
+2025-09-16 21:11:07,924 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:11:07,925 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:11:07,926 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:11:08,177 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:11:08).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:11:08,177 ERROR Ошибка выполнения покупки
+2025-09-16 21:12:08,457 INFO Calculating technical indicators
+2025-09-16 21:12:08,489 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:12:08,493 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:12:08,493 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:12:08,493 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:12:08,495 INFO Действие модели: [1]
+2025-09-16 21:12:08,496 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:12:08,497 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:12:08,497 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:12:08,498 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:12:08,498 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:12:08,498 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:12:08,499 INFO Уровень 1: 10% депозита
+2025-09-16 21:12:08,499 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:12:08,499 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:12:08,500 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:12:08,775 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:12:08).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:12:08,776 ERROR Ошибка выполнения покупки
+2025-09-16 21:13:09,026 INFO Calculating technical indicators
+2025-09-16 21:13:09,057 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:13:09,059 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:13:09,059 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:13:09,061 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:13:09,063 INFO Действие модели: [0]
+2025-09-16 21:13:09,064 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:14:09,319 INFO Calculating technical indicators
+2025-09-16 21:14:09,356 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:14:09,359 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:14:09,360 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:14:09,360 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:14:09,362 INFO Действие модели: [2]
+2025-09-16 21:14:09,363 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:15:09,614 INFO Calculating technical indicators
+2025-09-16 21:15:09,647 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:15:09,650 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:15:09,650 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:15:09,651 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:15:09,654 INFO Действие модели: [1]
+2025-09-16 21:15:09,654 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:15:09,655 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:15:09,656 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:15:09,656 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:15:09,657 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:15:09,657 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:15:09,658 INFO Уровень 1: 10% депозита
+2025-09-16 21:15:09,658 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:15:09,658 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:15:09,659 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:15:09,912 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:15:09).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:15:09,912 ERROR Ошибка выполнения покупки
+2025-09-16 21:16:10,169 INFO Calculating technical indicators
+2025-09-16 21:16:10,214 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:16:10,217 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:16:10,218 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:16:10,218 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:16:10,221 INFO Действие модели: [2]
+2025-09-16 21:16:10,222 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:17:10,479 INFO Calculating technical indicators
+2025-09-16 21:17:10,511 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:17:10,514 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:17:10,515 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:17:10,515 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:17:10,517 INFO Действие модели: [1]
+2025-09-16 21:17:10,518 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:17:10,520 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:17:10,520 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:17:10,521 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:17:10,521 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:17:10,521 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:17:10,522 INFO Уровень 1: 10% депозита
+2025-09-16 21:17:10,523 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:17:10,524 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:17:10,524 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:17:10,783 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:17:10).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:17:10,783 ERROR Ошибка выполнения покупки
+2025-09-16 21:18:11,121 INFO Calculating technical indicators
+2025-09-16 21:18:11,158 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:18:11,161 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:18:11,162 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:18:11,162 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:18:11,164 INFO Действие модели: [1]
+2025-09-16 21:18:11,165 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:18:11,165 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:18:11,166 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:18:11,166 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:18:11,166 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:18:11,167 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:18:11,167 INFO Уровень 1: 10% депозита
+2025-09-16 21:18:11,168 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:18:11,168 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:18:11,169 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:18:11,625 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:18:11).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:18:11,626 ERROR Ошибка выполнения покупки
+2025-09-16 21:19:11,881 INFO Calculating technical indicators
+2025-09-16 21:19:11,914 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:19:11,916 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:19:11,917 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:19:11,918 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:19:11,921 INFO Действие модели: [2]
+2025-09-16 21:19:11,921 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:20:12,176 INFO Calculating technical indicators
+2025-09-16 21:20:12,210 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:20:12,213 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:20:12,213 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:20:12,214 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:20:12,216 INFO Действие модели: [0]
+2025-09-16 21:20:12,217 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:21:12,469 INFO Calculating technical indicators
+2025-09-16 21:21:12,500 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:21:12,503 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:21:12,503 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:21:12,504 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:21:12,506 INFO Действие модели: [0]
+2025-09-16 21:21:12,506 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:22:12,765 INFO Calculating technical indicators
+2025-09-16 21:22:12,797 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:22:12,800 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:22:12,800 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:22:12,800 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:22:12,802 INFO Действие модели: [0]
+2025-09-16 21:22:12,802 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:23:13,071 INFO Calculating technical indicators
+2025-09-16 21:23:13,104 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:23:13,108 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:23:13,108 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:23:13,109 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:23:13,112 INFO Действие модели: [1]
+2025-09-16 21:23:13,112 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:23:13,113 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:23:13,114 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:23:13,114 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:23:13,114 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:23:13,115 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:23:13,115 INFO Уровень 1: 10% депозита
+2025-09-16 21:23:13,115 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:23:13,115 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:23:13,116 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:23:13,366 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:23:13).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:23:13,367 ERROR Ошибка выполнения покупки
+2025-09-16 21:24:13,619 INFO Calculating technical indicators
+2025-09-16 21:24:13,658 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:24:13,661 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:24:13,662 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:24:13,663 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:24:13,665 INFO Действие модели: [0]
+2025-09-16 21:24:13,665 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:25:13,922 INFO Calculating technical indicators
+2025-09-16 21:25:13,955 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:25:13,958 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:25:13,959 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:25:13,960 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:25:13,962 INFO Действие модели: [1]
+2025-09-16 21:25:13,962 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:25:13,963 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:25:13,964 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:25:13,964 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:25:13,965 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:25:13,965 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:25:13,966 INFO Уровень 1: 10% депозита
+2025-09-16 21:25:13,966 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:25:13,966 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:25:13,967 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:25:14,214 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:25:14).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:25:14,215 ERROR Ошибка выполнения покупки
+2025-09-16 21:26:14,471 INFO Calculating technical indicators
+2025-09-16 21:26:14,504 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:26:14,507 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:26:14,508 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:26:14,508 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:26:14,512 INFO Действие модели: [2]
+2025-09-16 21:26:14,512 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:27:14,765 INFO Calculating technical indicators
+2025-09-16 21:27:14,801 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:27:14,804 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:27:14,805 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:27:14,805 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:27:14,807 INFO Действие модели: [1]
+2025-09-16 21:27:14,808 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:27:14,809 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:27:14,810 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:27:14,810 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:27:14,811 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:27:14,811 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:27:14,811 INFO Уровень 1: 10% депозита
+2025-09-16 21:27:14,811 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:27:14,812 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:27:14,812 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:27:15,066 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:27:15).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:27:15,066 ERROR Ошибка выполнения покупки
+2025-09-16 21:28:15,327 INFO Calculating technical indicators
+2025-09-16 21:28:15,363 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:28:15,366 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:28:15,367 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:28:15,368 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:28:15,371 INFO Действие модели: [1]
+2025-09-16 21:28:15,372 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:28:15,373 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:28:15,373 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:28:15,374 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:28:15,374 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:28:15,374 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:28:15,375 INFO Уровень 1: 10% депозита
+2025-09-16 21:28:15,375 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:28:15,375 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:28:15,375 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:28:15,623 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:28:15).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:28:15,624 ERROR Ошибка выполнения покупки
+2025-09-16 21:29:15,884 INFO Calculating technical indicators
+2025-09-16 21:29:15,920 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:29:15,924 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:29:15,925 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:29:15,926 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:29:15,928 INFO Действие модели: [0]
+2025-09-16 21:29:15,929 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:30:16,280 INFO Calculating technical indicators
+2025-09-16 21:30:16,314 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:30:16,317 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:30:16,318 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:30:16,318 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:30:16,321 INFO Действие модели: [1]
+2025-09-16 21:30:16,322 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:30:16,323 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:30:16,324 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:30:16,324 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:30:16,324 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:30:16,324 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:30:16,324 INFO Уровень 1: 10% депозита
+2025-09-16 21:30:16,325 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:30:16,325 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:30:16,326 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:30:16,576 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:30:16).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:30:16,577 ERROR Ошибка выполнения покупки
+2025-09-16 21:31:16,829 INFO Calculating technical indicators
+2025-09-16 21:31:16,864 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:31:16,866 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:31:16,867 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:31:16,867 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:31:16,869 INFO Действие модели: [1]
+2025-09-16 21:31:16,870 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:31:16,870 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:31:16,871 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:31:16,871 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:31:16,871 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:31:16,871 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:31:16,872 INFO Уровень 1: 10% депозита
+2025-09-16 21:31:16,872 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:31:16,872 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:31:16,872 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:31:17,119 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:31:17).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:31:17,120 ERROR Ошибка выполнения покупки
+2025-09-16 21:32:17,376 INFO Calculating technical indicators
+2025-09-16 21:32:17,414 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:32:17,417 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:32:17,417 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:32:17,418 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:32:17,420 INFO Действие модели: [1]
+2025-09-16 21:32:17,421 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:32:17,422 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:32:17,422 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:32:17,422 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:32:17,423 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:32:17,423 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:32:17,423 INFO Уровень 1: 10% депозита
+2025-09-16 21:32:17,423 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:32:17,423 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:32:17,424 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:32:17,676 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:32:17).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:32:17,677 ERROR Ошибка выполнения покупки
+2025-09-16 21:33:17,928 INFO Calculating technical indicators
+2025-09-16 21:33:17,958 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:33:17,960 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:33:17,961 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:33:17,961 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:33:17,963 INFO Действие модели: [1]
+2025-09-16 21:33:17,963 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:33:17,965 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:33:17,965 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:33:17,965 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:33:17,966 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:33:17,966 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:33:17,966 INFO Уровень 1: 10% депозита
+2025-09-16 21:33:17,966 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:33:17,967 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:33:17,967 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:33:18,217 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:33:18).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:33:18,218 ERROR Ошибка выполнения покупки
+2025-09-16 21:34:18,473 INFO Calculating technical indicators
+2025-09-16 21:34:18,511 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:34:18,513 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:34:18,514 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:34:18,514 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:34:18,516 INFO Действие модели: [0]
+2025-09-16 21:34:18,516 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:35:18,773 INFO Calculating technical indicators
+2025-09-16 21:35:18,806 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:35:18,810 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:35:18,810 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:35:18,811 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:35:18,812 INFO Действие модели: [0]
+2025-09-16 21:35:18,813 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:36:19,067 INFO Calculating technical indicators
+2025-09-16 21:36:19,103 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:36:19,106 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:36:19,106 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:36:19,107 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:36:19,109 INFO Действие модели: [1]
+2025-09-16 21:36:19,110 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:36:19,111 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:36:19,111 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:36:19,111 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:36:19,111 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:36:19,112 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:36:19,112 INFO Уровень 1: 10% депозита
+2025-09-16 21:36:19,112 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:36:19,112 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:36:19,113 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:36:19,367 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:36:19).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:36:19,368 ERROR Ошибка выполнения покупки
+2025-09-16 21:37:19,625 INFO Calculating technical indicators
+2025-09-16 21:37:19,657 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:37:19,660 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:37:19,660 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:37:19,661 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:37:19,664 INFO Действие модели: [0]
+2025-09-16 21:37:19,664 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:38:19,919 INFO Calculating technical indicators
+2025-09-16 21:38:19,953 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:38:19,956 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:38:19,957 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:38:19,957 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:38:19,960 INFO Действие модели: [2]
+2025-09-16 21:38:19,960 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:39:20,214 INFO Calculating technical indicators
+2025-09-16 21:39:20,246 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:39:20,249 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:39:20,249 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:39:20,249 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:39:20,251 INFO Действие модели: [1]
+2025-09-16 21:39:20,252 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:39:20,254 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:39:20,254 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:39:20,255 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:39:20,255 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:39:20,255 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:39:20,256 INFO Уровень 1: 10% депозита
+2025-09-16 21:39:20,256 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:39:20,257 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:39:20,258 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:39:20,504 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:39:20).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:39:20,506 ERROR Ошибка выполнения покупки
+2025-09-16 21:40:20,758 INFO Calculating technical indicators
+2025-09-16 21:40:20,793 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:40:20,795 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:40:20,795 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:40:20,796 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:40:20,797 INFO Действие модели: [0]
+2025-09-16 21:40:20,798 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:41:21,050 INFO Calculating technical indicators
+2025-09-16 21:41:21,083 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:41:21,087 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:41:21,087 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:41:21,088 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:41:21,090 INFO Действие модели: [1]
+2025-09-16 21:41:21,091 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:41:21,092 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:41:21,092 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:41:21,092 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:41:21,093 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:41:21,093 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:41:21,093 INFO Уровень 1: 10% депозита
+2025-09-16 21:41:21,093 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:41:21,093 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:41:21,094 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:41:21,351 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:41:21).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:41:21,352 ERROR Ошибка выполнения покупки
+2025-09-16 21:42:21,605 INFO Calculating technical indicators
+2025-09-16 21:42:21,643 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:42:21,646 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:42:21,646 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:42:21,647 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:42:21,649 INFO Действие модели: [2]
+2025-09-16 21:42:21,649 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:43:22,234 INFO Calculating technical indicators
+2025-09-16 21:43:22,265 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:43:22,269 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:43:22,269 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:43:22,270 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:43:22,272 INFO Действие модели: [1]
+2025-09-16 21:43:22,273 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:43:22,274 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:43:22,274 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:43:22,274 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:43:22,274 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:43:22,275 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:43:22,275 INFO Уровень 1: 10% депозита
+2025-09-16 21:43:22,275 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:43:22,276 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:43:22,276 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:43:22,524 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:43:22).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:43:22,524 ERROR Ошибка выполнения покупки
+2025-09-16 21:44:22,780 INFO Calculating technical indicators
+2025-09-16 21:44:22,816 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:44:22,819 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:44:22,820 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:44:22,820 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:44:22,822 INFO Действие модели: [0]
+2025-09-16 21:44:22,823 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:45:23,077 INFO Calculating technical indicators
+2025-09-16 21:45:23,117 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:45:23,119 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:45:23,120 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:45:23,121 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:45:23,123 INFO Действие модели: [1]
+2025-09-16 21:45:23,123 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:45:23,124 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:45:23,125 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:45:23,125 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:45:23,125 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:45:23,126 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:45:23,126 INFO Уровень 1: 10% депозита
+2025-09-16 21:45:23,126 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:45:23,126 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:45:23,127 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:45:23,379 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:45:23).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:45:23,380 ERROR Ошибка выполнения покупки
+2025-09-16 21:46:23,634 INFO Calculating technical indicators
+2025-09-16 21:46:23,666 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:46:23,669 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:46:23,670 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:46:23,670 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:46:23,673 INFO Действие модели: [1]
+2025-09-16 21:46:23,673 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:46:23,674 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:46:23,674 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:46:23,675 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:46:23,675 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:46:23,675 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:46:23,676 INFO Уровень 1: 10% депозита
+2025-09-16 21:46:23,676 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:46:23,676 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:46:23,677 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:46:23,924 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:46:23).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:46:23,925 ERROR Ошибка выполнения покупки
+2025-09-16 21:47:24,178 INFO Calculating technical indicators
+2025-09-16 21:47:24,210 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:47:24,214 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:47:24,215 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:47:24,215 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:47:24,217 INFO Действие модели: [2]
+2025-09-16 21:47:24,218 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:48:24,471 INFO Calculating technical indicators
+2025-09-16 21:48:24,507 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:48:24,511 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:48:24,511 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:48:24,512 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:48:24,515 INFO Действие модели: [0]
+2025-09-16 21:48:24,516 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:49:24,767 INFO Calculating technical indicators
+2025-09-16 21:49:24,801 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:49:24,805 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:49:24,806 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:49:24,806 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:49:24,808 INFO Действие модели: [2]
+2025-09-16 21:49:24,809 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:50:25,062 INFO Calculating technical indicators
+2025-09-16 21:50:25,094 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:50:25,097 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:50:25,097 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:50:25,097 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:50:25,099 INFO Действие модели: [1]
+2025-09-16 21:50:25,100 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:50:25,101 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:50:25,101 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:50:25,102 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:50:25,102 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:50:25,102 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:50:25,103 INFO Уровень 1: 10% депозита
+2025-09-16 21:50:25,103 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:50:25,103 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:50:25,104 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:50:25,356 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:50:25).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:50:25,356 ERROR Ошибка выполнения покупки
+2025-09-16 21:51:25,605 INFO Calculating technical indicators
+2025-09-16 21:51:25,637 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:51:25,639 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:51:25,640 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:51:25,640 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:51:25,643 INFO Действие модели: [2]
+2025-09-16 21:51:25,643 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:52:25,902 INFO Calculating technical indicators
+2025-09-16 21:52:25,934 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:52:25,938 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:52:25,939 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:52:25,940 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:52:25,942 INFO Действие модели: [1]
+2025-09-16 21:52:25,942 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:52:25,943 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:52:25,944 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:52:25,944 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:52:25,944 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:52:25,945 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:52:25,945 INFO Уровень 1: 10% депозита
+2025-09-16 21:52:25,946 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:52:25,946 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:52:25,947 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:52:26,196 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:52:26).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:52:26,197 ERROR Ошибка выполнения покупки
+2025-09-16 21:53:26,449 INFO Calculating technical indicators
+2025-09-16 21:53:26,481 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:53:26,483 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:53:26,484 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:53:26,484 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:53:26,485 INFO Действие модели: [1]
+2025-09-16 21:53:26,486 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:53:26,487 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:53:26,487 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:53:26,487 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:53:26,488 INFO Первая позиция (тестнет): 10108.43 * 0% = 202.17 USDT
+2025-09-16 21:53:26,488 INFO Размер позиции округлен до: 0.0020 BTC (мин. стоимость: 219.08 USDT)
+2025-09-16 21:53:26,488 INFO Уровень 1: 10% депозита
+2025-09-16 21:53:26,488 INFO Расчет размера позиции: 0.002000 BTC при цене 109541.44
+2025-09-16 21:53:26,489 INFO Округленный размер позиции: 0.0020 BTC
+2025-09-16 21:53:26,490 INFO Попытка покупки: qty=0.002, symbol=BTCUSDT
+2025-09-16 21:53:26,742 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:53:26).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.002", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:53:26,743 ERROR Ошибка выполнения покупки
+2025-09-16 21:54:09,275 INFO Клиент Bybit настроен успешно
+2025-09-16 21:54:11,241 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 21:54:11,839 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 21:54:11,839 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 21:54:11,840 INFO Спецификации контракта BTCUSDT:
+2025-09-16 21:54:11,840 INFO    Минимальный размер: 0.001
+2025-09-16 21:54:11,840 INFO    Шаг размера: 0.001
+2025-09-16 21:54:11,840 INFO    Максимальный размер: 100.0
+2025-09-16 21:54:12,098 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 21:54:12,360 INFO Calculating technical indicators
+2025-09-16 21:54:12,395 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:54:12,397 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:54:12,398 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:54:12,398 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:54:12,404 INFO Действие модели: [0]
+2025-09-16 21:54:12,404 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 21:55:12,679 INFO Calculating technical indicators
+2025-09-16 21:55:12,722 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:55:12,727 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:55:12,728 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:55:12,729 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:55:12,732 INFO Действие модели: [1]
+2025-09-16 21:55:12,732 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:55:12,733 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:55:12,733 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:55:12,734 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:55:12,734 INFO Первая позиция (тестнет фикс): 500.00 USDT
+2025-09-16 21:55:12,734 INFO Размер позиции округлен до: 0.0050 BTC (мин. стоимость: 547.71 USDT)
+2025-09-16 21:55:12,734 INFO Уровень 1: 10% депозита
+2025-09-16 21:55:12,735 INFO Расчет размера позиции: 0.005000 BTC при цене 109541.44
+2025-09-16 21:55:12,735 INFO Округленный размер позиции: 0.0050 BTC
+2025-09-16 21:55:12,736 INFO Попытка покупки: qty=0.005, symbol=BTCUSDT
+2025-09-16 21:55:12,995 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 19:55:12).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.005", "timeInForce": "GoodTillCancel"}.
+2025-09-16 21:55:12,995 ERROR Ошибка выполнения покупки
+2025-09-16 21:56:09,167 INFO Клиент Bybit настроен успешно
+2025-09-16 21:56:10,966 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 21:56:11,879 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 21:56:11,879 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 21:56:11,879 INFO Спецификации контракта BTCUSDT:
+2025-09-16 21:56:11,879 INFO    Минимальный размер: 0.001
+2025-09-16 21:56:11,879 INFO    Шаг размера: 0.001
+2025-09-16 21:56:11,880 INFO    Максимальный размер: 100.0
+2025-09-16 21:56:12,141 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 21:56:12,410 INFO Calculating technical indicators
+2025-09-16 21:56:12,446 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:56:12,449 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:56:12,449 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:56:12,449 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:56:12,453 INFO Действие модели: [2]
+2025-09-16 21:56:12,453 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:57:12,725 INFO Calculating technical indicators
+2025-09-16 21:57:12,756 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:57:12,758 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:57:12,758 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:57:12,758 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:57:12,760 INFO Действие модели: [1]
+2025-09-16 21:57:12,761 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-16 21:57:12,761 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-16 21:57:12,762 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-16 21:57:12,762 INFO Баланс: 10108.43 USDT, цена: 109541.44
+2025-09-16 21:57:12,762 INFO Первая позиция (тестнет фикс): 500.00 USDT
+2025-09-16 21:57:12,762 INFO Размер позиции округлен до: 0.0050 BTC (мин. стоимость: 547.71 USDT)
+2025-09-16 21:57:12,762 INFO Уровень 1: 10% депозита
+2025-09-16 21:57:12,763 INFO Расчет размера позиции: 0.005000 BTC при цене 109541.44
+2025-09-16 21:57:12,763 INFO Округленный размер позиции: 0.0050 BTC
+2025-09-16 21:57:12,764 INFO Попытка покупки: qty=0.005, symbol=BTCUSDT
+2025-09-16 21:57:12,764 ERROR Исключение при покупке: 'BybitTestnetBot' object has no attribute 'get_current_price'
+2025-09-16 21:57:12,764 ERROR Ошибка выполнения покупки
+2025-09-16 21:58:22,459 INFO Клиент Bybit настроен успешно
+2025-09-16 21:58:24,523 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-16 21:58:25,461 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters']
+2025-09-16 21:58:25,461 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-16 21:58:25,462 INFO Спецификации контракта BTCUSDT:
+2025-09-16 21:58:25,462 INFO    Минимальный размер: 0.001
+2025-09-16 21:58:25,462 INFO    Шаг размера: 0.001
+2025-09-16 21:58:25,462 INFO    Максимальный размер: 100.0
+2025-09-16 21:58:25,729 INFO Файл состояния не найден, начинаем с чистого листа
+2025-09-16 21:58:26,005 INFO Calculating technical indicators
+2025-09-16 21:58:26,043 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:58:26,045 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:58:26,045 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:58:26,046 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:58:26,049 INFO Действие модели: [2]
+2025-09-16 21:58:26,050 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 21:59:26,313 INFO Calculating technical indicators
+2025-09-16 21:59:26,346 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 21:59:26,349 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 21:59:26,349 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-3.1203, 4.7850]
+2025-09-16 21:59:26,350 INFO Вход модели: shape=(1, 24, 24), mean=0.0000, std=0.9789
+2025-09-16 21:59:26,351 INFO Действие модели: [0]
+2025-09-16 21:59:26,352 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 22:00:27,140 INFO Calculating technical indicators
+2025-09-16 22:00:27,169 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 22:00:27,171 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 22:00:27,171 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8176, 4.7850]
+2025-09-16 22:00:27,171 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9789
+2025-09-16 22:00:27,173 INFO Действие модели: [2]
+2025-09-16 22:00:27,173 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-16 22:01:27,749 INFO Calculating technical indicators
+2025-09-16 22:01:27,781 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-16 22:01:27,784 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-16 22:01:27,784 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8176, 4.7850]
+2025-09-16 22:01:27,785 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9789
+2025-09-16 22:01:27,787 INFO Действие модели: [0]
+2025-09-16 22:01:27,787 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-16 22:02:26,417 INFO Состояние торговли сохранено в trading_state.json
+2025-09-20 19:56:06,696 INFO Клиент Bybit настроен успешно
+2025-09-20 19:56:09,454 INFO Модель загружена: new_improved_ppo_model.zip
+2025-09-20 19:56:10,021 INFO Структура контракта: ['symbol', 'baseCoin', 'quoteCoin', 'innovation', 'status', 'marginTrading', 'stTag', 'lotSizeFilter', 'priceFilter', 'riskParameters', 'symbolType']
+2025-09-20 19:56:10,022 INFO Найденные значения: minOrderQty=0.001, qtyStep=0.001
+2025-09-20 19:56:10,022 INFO Спецификации контракта BTCUSDT:
+2025-09-20 19:56:10,022 INFO    Минимальный размер: 0.001
+2025-09-20 19:56:10,023 INFO    Шаг размера: 0.001
+2025-09-20 19:56:10,023 INFO    Максимальный размер: 100.0
+2025-09-20 19:56:10,294 INFO Состояние торговли загружено из 2025-09-16T22:02:26.416638
+2025-09-20 19:56:10,579 INFO Calculating technical indicators
+2025-09-20 19:56:10,634 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-20 19:56:10,637 INFO Нормализованные данные: shape=(24, 24), mean=0.0000, std=0.9789
+2025-09-20 19:56:10,638 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8052, 4.7958]
+2025-09-20 19:56:10,638 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9789
+2025-09-20 19:56:10,692 INFO Действие модели: [0]
+2025-09-20 19:56:10,693 INFO Модель решила: 0 (ДЕРЖАТЬ)
+2025-09-20 19:57:10,947 INFO Calculating technical indicators
+2025-09-20 19:57:10,983 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-20 19:57:10,985 INFO Нормализованные данные: shape=(24, 24), mean=-0.0000, std=0.9789
+2025-09-20 19:57:10,985 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.7287, 4.7958]
+2025-09-20 19:57:10,986 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9789
+2025-09-20 19:57:10,988 INFO Действие модели: [2]
+2025-09-20 19:57:10,988 INFO Модель решила: 2 (ПРОДАТЬ)
+2025-09-20 19:58:11,243 INFO Calculating technical indicators
+2025-09-20 19:58:11,282 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-20 19:58:11,285 INFO Нормализованные данные: shape=(24, 24), mean=0.0000, std=0.9789
+2025-09-20 19:58:11,285 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8052, 4.7958]
+2025-09-20 19:58:11,286 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9789
+2025-09-20 19:58:11,288 INFO Действие модели: [1]
+2025-09-20 19:58:11,288 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-20 19:58:11,289 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-20 19:58:11,290 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-20 19:58:11,290 INFO Баланс: 10108.43 USDT, цена: 110111.64
+2025-09-20 19:58:11,291 INFO Первая позиция (тестнет фикс): 1000.00 USDT
+2025-09-20 19:58:11,291 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 991.00 USDT)
+2025-09-20 19:58:11,292 INFO Уровень 1: 10% депозита
+2025-09-20 19:58:11,292 INFO Расчет размера позиции: 0.009000 BTC при цене 110111.64
+2025-09-20 19:58:11,293 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-20 19:58:11,294 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-20 19:58:11,609 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 17:58:11).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-20 19:58:11,609 ERROR Ошибка выполнения покупки
+2025-09-20 19:59:11,865 INFO Calculating technical indicators
+2025-09-20 19:59:11,900 INFO Indicators calculated successfully. Final dataset size: 47
+2025-09-20 19:59:11,902 INFO Нормализованные данные: shape=(24, 24), mean=0.0000, std=0.9789
+2025-09-20 19:59:11,903 INFO Финальная матрица наблюдения: shape=(24, 24), range=[-2.8052, 4.7958]
+2025-09-20 19:59:11,903 INFO Вход модели: shape=(1, 24, 24), mean=-0.0000, std=0.9789
+2025-09-20 19:59:11,905 INFO Действие модели: [1]
+2025-09-20 19:59:11,905 INFO Модель решила: 1 (КУПИТЬ)
+2025-09-20 19:59:11,906 INFO СИГНАЛ ПОКУПКИ ОТ МОДЕЛИ - начинаем процесс открытия позиции
+2025-09-20 19:59:11,906 INFO Текущий уровень: 0, процент уровня: 10%
+2025-09-20 19:59:11,906 INFO Баланс: 10108.43 USDT, цена: 110111.64
+2025-09-20 19:59:11,906 INFO Первая позиция (тестнет фикс): 1000.00 USDT
+2025-09-20 19:59:11,906 INFO Размер позиции округлен до: 0.0090 BTC (мин. стоимость: 991.00 USDT)
+2025-09-20 19:59:11,906 INFO Уровень 1: 10% депозита
+2025-09-20 19:59:11,907 INFO Расчет размера позиции: 0.009000 BTC при цене 110111.64
+2025-09-20 19:59:11,907 INFO Округленный размер позиции: 0.0090 BTC
+2025-09-20 19:59:11,907 INFO Попытка покупки: qty=0.009000000000000001, symbol=BTCUSDT
+2025-09-20 19:59:12,156 ERROR Исключение при покупке: Order value exceeded lower limit. (ErrCode: 170140) (ErrTime: 17:59:12).
+Request -> POST https://api-testnet.bybit.com/v5/order/create: {"category": "spot", "symbol": "BTCUSDT", "side": "Buy", "orderType": "Market", "qty": "0.009000000000000001", "timeInForce": "GoodTillCancel"}.
+2025-09-20 19:59:12,156 ERROR Ошибка выполнения покупки
+2025-09-20 19:59:14,847 INFO Состояние торговли сохранено в trading_state.json

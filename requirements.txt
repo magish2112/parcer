@@ -1,0 +1,11 @@
+pandas
+numpy
+ta
+stable-baselines3
+gymnasium
+python-dotenv
+pybit
+optuna
+matplotlib
+scikit-learn
+joblib

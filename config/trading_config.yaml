@@ -1,0 +1,109 @@
+# Конфигурация торгового бота
+
+trading:
+  symbol: 'BTCUSDT'
+  initial_deposit: 10000.0
+  window_size: 24
+  sl_pct: 0.03
+  tp_pct: 0.07
+  fee: 0.001
+  min_trade_delay: 1
+  max_drawdown: 0.2
+  
+  # Параметры пирамидинга
+  pyramid_levels: [0.10, 0.20, 0.50]
+  pyramid_drawdown_thresholds: [0.05, 0.15, 0.25]
+  
+  # Параметры трейлинг-стопа
+  trailing_tp_activate_pct: 0.05
+  trailing_tp_trailing_pct: 0.022
+  trailing_stop_multiplier: 1.5
+  
+  # Параметры частичного закрытия
+  partial_tp_pct: 0.08
+  partial_close_ratio: 0.5
+
+model:
+  learning_rate: 1e-4
+  n_steps: 4096
+  batch_size: 256
+  n_epochs: 10
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  ent_coef: 0.01
+  vf_coef: 0.5
+  max_grad_norm: 0.5
+  
+  # Архитектура сети
+  net_arch: [512, 256, 128]
+  activation_fn: 'ReLU'
+  
+  # Параметры обучения
+  total_timesteps: 1000000
+  learning_episodes: 10000
+  min_data_points: 1000
+
+data:
+  dataset_path: 'btc_4h_full_fixed.csv'
+  interval: '240'  # 4H
+  limit: 200
+  
+  # Список признаков
+  feature_list:
+    - 'close'
+    - 'volume'
+    - 'rsi'
+    - 'ema_14'
+    - 'macd'
+    - 'atr'
+    - 'bb_bbm'
+    - 'adx'
+    - 'cci'
+    - 'roc'
+    - 'stoch'
+    - 'crsi'
+    - 'sideways_volume'
+    - 'dist_to_support'
+    - 'dist_to_resistance'
+    - 'false_breakout'
+    - 'volume_spike'
+    - 'trend_ema'
+    - 'support'
+    - 'resistance'
+    - 'ema200_d1'
+    - 'atr_mult_trailing_stop'
+  
+  # Параметры индикаторов
+  rsi_window: 14
+  ema_window: 14
+  atr_window: 14
+  adx_window: 14
+  cci_window: 20
+  roc_window: 12
+  bb_window: 20
+  support_resistance_window: 50
+
+logging:
+  level: 'INFO'
+  log_dir: 'logs'
+  log_file: 'trading.log'
+  max_file_size: 10485760  # 10MB
+  backup_count: 5
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+api:
+  testnet: true
+  api_key_env: 'BYBIT_API_KEY'
+  api_secret_env: 'BYBIT_API_SECRET'
+  timeout: 30
+  retry_count: 3
+
+monitoring:
+  enabled: true
+  metrics_interval: 100  # шагов
+  save_interval: 1000    # шагов
+  alert_thresholds:
+    max_drawdown: 0.15
+    min_win_rate: 0.4
+    max_loss_streak: 10
